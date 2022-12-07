@@ -1,6 +1,6 @@
-html,body {
-    height:100vh;
-  }
+.carousel-item {
+  transition:    opacity ease-in !important;
+}
   .drk:after {
     content:"";
     display:block;
@@ -9,8 +9,8 @@ html,body {
     bottom:0;
     left:0;
     right:0;
-    background: #009;;
-    opacity:0.5;
+    background: #000;;
+    opacity:0.8;
 }
   .carousel, .item, .active {
     height:100vh;
@@ -60,13 +60,19 @@ html,body {
     height:100%;
     top:0; 
     left:0;
-    background:rgba(0,0,255,0.6);
+    background:rgba(0,0,255,0.6000000000000);
 }
 .carousel-caption{
   margin-bottom: 20%;
   margin-bottom: 20%;
   padding: 25px 18px;
+  opacity:0.9;
 }
+.ccd{
+  color: white;
+  font-weight: 900;
+}
+
    @media only screen and (max-width: 450px) {
 
       #demo {
